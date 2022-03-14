@@ -2,7 +2,7 @@ export default function Conteudo() {
     return (
         <div class="conteudo-total">
             <StoriesFeed />
-
+            <SideBar />
         </div>
     )
 }
@@ -124,5 +124,113 @@ function Feed(props){
 }
 
 function SideBar() {
-    
+    return (
+        <div class="barra-lateral ocultar-3">
+            <MeuPerfil />
+            <Sugetoes />
+            <Rodape />
+        </div>
+    )
+}
+
+function MeuPerfil() {
+    return (
+        <div class="meu-perfil">
+                <a href="https://www.instagram.com/"><img src="imagens/imagens/FotoPats.jpg" class="minha-foto" /></a>
+                <div class="texto-perfil">
+                    <a href="https://www.instagram.com/" class="meu-nome">hermes.junior</a>
+                    <div class="nome">Hermes Júnior</div>
+                </div>
+            </div>
+    )
+}
+
+function Sugetoes() {
+    return (
+        <div class="sugestoes-todas">
+            <div class="sugestoes-topo espaco-1">
+                <p class="sugestoes-texto-1">Sugestões para você</p>
+                <a href="https://www.instagram.com/" class="ver-tudo">Ver tudo</a>
+            </div>
+            <div class="sugestoes espaco-1">
+                <div class="sugestoes-perfil">
+                    <a class="sugestoes-imagem" href="https://www.instagram.com/">
+                        <img src="imagens/imagens/badvibesmemes.png" alt="" />
+                    </a>
+                    <div class="sugestoes-texto-2">
+                        <a class="sugestoes-nome" href="https://www.instagram.com/">bad.vibes.memes</a>
+                        <p class="sugestoes-status">Segue você</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/" class="seguir">
+                    <p>Seguir</p>
+                </a>
+            </div>
+            <div class="sugestoes espaco-1">
+                <div class="sugestoes-perfil">
+                    <a class="sugestoes-imagem" href="https://www.instagram.com/">
+                        <img src="imagens/imagens/chibirdart.png" alt="" />
+                    </a>
+                    <div class="sugestoes-texto-2">
+                        <a class="sugestoes-nome" href="https://www.instagram.com/">chibirdart</a>
+                        <p class="sugestoes-status">Segue você</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/" class="seguir">
+                    <p>Seguir</p>
+                </a>
+            </div>
+            <div class="sugestoes espaco-1">
+                <div class="sugestoes-perfil">
+                    <a class="sugestoes-imagem" href="https://www.instagram.com/">
+                        <img src="imagens/imagens/razoesparaacreditar.png" alt="" />
+                    </a>
+                    <div class="sugestoes-texto-2">
+                        <a class="sugestoes-nome" href="https://www.instagram.com/">razoesparaacreditar</a>
+                        <p class="sugestoes-status">Novo no Instagram</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/" class="seguir">
+                    <p>Seguir</p>
+                </a>
+            </div>
+            <div class="sugestoes espaco-1">
+                <div class="sugestoes-perfil">
+                    <a class="sugestoes-imagem" href="https://www.instagram.com/">
+                        <img src="imagens/imagens/adorableanimals.png" alt="" />
+                    </a>
+                    <div class="sugestoes-texto-2">
+                        <a class="sugestoes-nome" href="https://www.instagram.com/">adorable_animals</a>
+                        <p class="sugestoes-status">Segue você</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/" class="seguir">
+                    <p>Seguir</p>
+                </a>
+            </div>
+            <div class="sugestoes espaco-1">
+                <div class="sugestoes-perfil">
+                    <a class="sugestoes-imagem" href="https://www.instagram.com/">
+                        <img src="imagens/imagens/smallcutecats.png" alt="" />
+                    </a>
+                    <div class="sugestoes-texto-2">
+                        <a class="sugestoes-nome" href="https://www.instagram.com/">smallcutecats</a>
+                        <p class="sugestoes-status">Segue você</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/" class="seguir">
+                    <p>Seguir</p>
+                </a>
+            </div>
+        </div>
+    )
+}
+
+function Rodape() {
+    return (
+        <div class="rodape">
+                <p>Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma</p>
+                <p>© 2021 INSTAGRAM DO FACEBOOK</p>
+            </div>
+    )
 }

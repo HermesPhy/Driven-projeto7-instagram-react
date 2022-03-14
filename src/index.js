@@ -1,12 +1,14 @@
 import ReactDom from "react-dom";
 import BarraNavegacao from "./BarraNavegacao";
 import Conteudo from "./Conteudo";
+import Mobile from "./Mobile";
 
 function App() {
     return (
         <div>
             <BarraNavegacao />
             <Conteudo />
+            <Mobile />
         </div>
     )
 }
